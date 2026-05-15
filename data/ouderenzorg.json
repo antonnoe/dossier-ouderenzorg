@@ -1,0 +1,73 @@
+{
+  "domain": {
+    "eyebrow": "Kennisdomein · v2.1",
+    "title": "Ouderenzorg in Frankrijk",
+    "intro": "Eén afgebakend domein voor alles rond zorg op leeftijd in Frankrijk: van hulp aan huis tot wonen met zorg, mantelzorg, juridische en financiële voorbereiding, en het levenseinde.",
+    "peildatum": "3 mei 2026",
+    "status": "Actueel",
+    "versie": "v2.1",
+    "redacteur": "Anton de Vries",
+    "wijzigingen": "GIR-tabel 2026 vernieuwd; mantelzorg-vergoeding bijgewerkt; nieuwe tool toegevoegd.",
+    "contactNote": "<a href=\"#\">Stuur de redactie een bericht</a> — wij reageren binnen 5 werkdagen."
+  },
+  "wegwijzer": {
+    "badge": "IF Wegwijzer · uw gids",
+    "title": "Niet weten waar te beginnen?",
+    "subtitle": "Ik leid u door dit domein. Stel een vraag, of kies een ingang hieronder — ik markeer dan welke thema's voor uw situatie het meest relevant zijn.",
+    "openingQuestion": "Voor wie zoekt u informatie?",
+    "quickReplies": [
+      { "id": "self",    "label": "Mijzelf",       "recommends": ["hulp-aan-huis", "financieel"] },
+      { "id": "parent",  "label": "Een ouder",     "recommends": ["hulp-aan-huis", "wonen-met-zorg", "financieel"] },
+      { "id": "partner", "label": "Mijn partner",  "recommends": ["mantelzorg", "juridisch", "financieel"] },
+      { "id": "other",   "label": "Iemand anders", "recommends": ["mantelzorg", "financieel"] }
+    ],
+    "followup": "Op basis daarvan markeer ik de meest relevante thema's in de atlas.",
+    "disclaimer": "Werkt op het IF-corpus, peildatum 3 mei 2026. Geen medisch of juridisch advies — lees <a href=\"#\">disclaimer</a>."
+  },
+  "themes": [
+    { "id": "hulp-aan-huis",      "title": "Hulp aan huis",             "summary": "SAAD, ADMR, aide-ménagère, infirmier libéral.",            "readingTime": "14 min lezen", "href": "#" },
+    { "id": "wonen-met-zorg",     "title": "Wonen met zorg",            "summary": "EHPAD, résidence services, accueil familial.",            "readingTime": "18 min lezen", "href": "#" },
+    { "id": "mantelzorg",         "title": "Mantelzorg",                "summary": "Proche aidant: rechten, congé, repijtzorg.",              "readingTime": "11 min lezen", "href": "#" },
+    { "id": "juridisch",          "title": "Juridische voorbereiding",  "summary": "Mandat de protection future, tutelle, volmachten.",       "readingTime": "16 min lezen", "href": "#" },
+    { "id": "levenseinde",        "title": "Levenseinde",               "summary": "Directives anticipées, soins palliatifs, repatriëring.",  "readingTime": "13 min lezen", "href": "#" },
+    { "id": "verhuizen",          "title": "Verhuizen met zorgbehoefte","summary": "Terug naar NL, of dossier overdragen naar FR.",           "readingTime": "9 min lezen",  "href": "#" },
+    { "id": "financieel",         "title": "Financieel",                "summary": "APA, ASPA, complémentaire santé, AOW & pensioenen.",      "readingTime": "22 min lezen", "href": "#" }
+  ],
+  "tools": [
+    { "title": "APA-indicatie in 4 vragen",    "summary": "GIR-niveau, maandbudget en eigen bijdrage — direct in beeld.",      "cta": "Open de rekentool",   "href": "#" },
+    { "title": "Beslisboom: blijven of terug?","summary": "Negen vragen leiden naar een gemotiveerde voorkeur, geen advies.", "cta": "Start de beslisboom", "href": "#" }
+  ],
+  "vraagbaak": {
+    "badge": "IF Vraagbaak · gebaseerd op 142 IF-artikelen",
+    "title": "Vraag het de Vraagbaak",
+    "intro": "Bijv.: <em>\"Krijg ik APA als mijn AOW al uit Nederland komt?\"</em>",
+    "exampleQuestion": "Krijg ik APA als mijn AOW al uit Nederland komt?",
+    "answer": "Ja, APA is woonplaats-gebonden, niet inkomstenbron-gebonden<sup>1</sup>. Wel telt uw totale wereldinkomen mee in de berekening van de eigen bijdrage<sup>2</sup>; AOW en aanvullend pensioen worden meegerekend<sup>3</sup>. De aanvraag loopt via het Conseil départemental, niet via de CPAM<sup>1</sup>.",
+    "sources": [
+      { "n": 1, "label": "APA aanvragen — voorwaarden en procedure (canonical, 2026)" },
+      { "n": 2, "label": "Eigen bijdrage APA: zo wordt uw inkomen meegerekend" },
+      { "n": 3, "label": "AOW en Frans pensioen: hoe ze samenwerken" }
+    ]
+  },
+  "extraSections": [
+    {
+      "type": "callout",
+      "eyebrow": "Wat nieuw is in 2026",
+      "title": "GIR-tabel en APA-bedragen geactualiseerd",
+      "body": "De maximumbedragen voor APA per GIR-niveau zijn voor 2026 verhoogd. De rekentool hierboven gebruikt al de nieuwe tabel; thema-artikel <em>Hulp aan huis</em> en <em>Financieel</em> zijn op 3 mei 2026 herzien."
+    },
+    {
+      "type": "timeline",
+      "eyebrow": "Stappenplan",
+      "title": "Een APA-aanvraag in vijf stappen",
+      "lede": "Indicatieve volgorde — exacte termijnen variëren per departement.",
+      "items": [
+        "Verzamel paspoort, RIB, avis d'imposition en eventuele medische verklaringen.",
+        "Vraag bij het Conseil départemental het dossier APA aan (papier of online).",
+        "Bezoek door medisch team thuis voor GIR-evaluatie (binnen ca. 30 dagen).",
+        "Ontvang het plan d'aide en accepteer of vraag wijziging.",
+        "Eerste uitkering volgt doorgaans binnen 2 maanden na aanvaarding."
+      ]
+    }
+  ]
+}
