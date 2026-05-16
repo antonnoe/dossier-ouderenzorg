@@ -19,10 +19,6 @@ export function DomainHead({ domain }: { domain: DomainData["domain"] }) {
           <div className="lbl">Versie</div>
           <strong>{domain.versie}</strong>
         </div>
-        <div className="cell">
-          <div className="lbl">Redacteur</div>
-          <strong>{domain.redacteur}</strong>
-        </div>
       </div>
     </section>
   );

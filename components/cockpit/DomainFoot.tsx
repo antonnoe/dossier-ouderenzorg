@@ -14,9 +14,8 @@ export function DomainFoot({ domain }: { domain: DomainData["domain"] }) {
         <p>{domain.wijzigingen}</p>
       </div>
       <div>
-        <div className="lbl">Vragen of fouten?</div>
-        <strong>{domain.redacteur}</strong>
-        <p dangerouslySetInnerHTML={{ __html: domain.contactNote }} />
+        <div className="lbl">Disclaimer</div>
+        <p dangerouslySetInnerHTML={{ __html: domain.disclaimer }} />
       </div>
     </footer>
   );

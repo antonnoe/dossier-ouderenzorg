@@ -43,9 +43,10 @@ export const DomainDataSchema = z.object({
     peildatum: z.string(),
     status: z.string(),
     versie: z.string(),
-    redacteur: z.string(),
+    redacteur: z.string().optional().default(""),
     wijzigingen: z.string(),
-    contactNote: z.string(),
+    contactNote: z.string().optional().default(""),
+    disclaimer: z.string(),
   }),
   wegwijzer: z.object({
     badge: z.string(),
